@@ -6,7 +6,7 @@ const User = require('./models/User');
 require('dotenv').config();
 
 const OUTPUT_FOLDER = path.join(__dirname, './qrcodes');
-const BASE_URL = 'http://localhost:3000/kill'; // or your live domain
+const BASE_URL = 'https://among-us-main.onrender.com/kill'; // or your live domain
 
 (async () => {
   await mongoose.connect('mongodb+srv://microsoftrishik:qGoAwWk8rokUR2OF@among.zojf7gu.mongodb.net/userStatusDB?retryWrites=true&w=majority');
